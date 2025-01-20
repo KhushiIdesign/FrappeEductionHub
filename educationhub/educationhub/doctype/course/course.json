@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "course-.####",
  "creation": "2025-01-20 05:57:35.054561",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -72,10 +73,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-20 06:00:34.536781",
+ "modified": "2025-01-20 07:32:16.814997",
  "modified_by": "Administrator",
  "module": "EducationHub",
  "name": "Course",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

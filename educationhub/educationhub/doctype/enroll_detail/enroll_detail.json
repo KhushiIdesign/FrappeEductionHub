@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "ed-.####",
  "creation": "2025-01-20 06:08:07.718914",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -20,7 +21,7 @@
    "fieldname": "enrollment_name",
    "fieldtype": "Link",
    "label": "Enrollment Name",
-   "options": "Enroll Detail"
+   "options": "Enrollment"
   },
   {
    "fetch_from": "course_name.credit",
@@ -31,10 +32,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-20 06:10:21.185841",
+ "modified": "2025-01-20 07:32:38.726857",
  "modified_by": "Administrator",
  "module": "EducationHub",
  "name": "Enroll Detail",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
