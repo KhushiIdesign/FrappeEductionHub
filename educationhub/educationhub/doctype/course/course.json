@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-20 05:57:35.054561",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "type",
+  "start_date",
+  "end_date",
+  "credit",
+  "fee",
+  "regitration_fee",
+  "total_fee",
+  "no_of_seats"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Date",
+   "label": "Type"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Datetime",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "credit",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Credit",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "fee",
+   "fieldtype": "Float",
+   "label": "Fee",
+   "non_negative": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "regitration_fee",
+   "fieldtype": "Float",
+   "label": "Regitration Fee"
+  },
+  {
+   "fieldname": "total_fee",
+   "fieldtype": "Float",
+   "label": "Total Fee"
+  },
+  {
+   "fieldname": "no_of_seats",
+   "fieldtype": "Int",
+   "label": "No of Seats",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-20 06:00:34.536781",
+ "modified_by": "Administrator",
+ "module": "EducationHub",
+ "name": "Course",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
