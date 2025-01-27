@@ -1,17 +1,19 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:{name]-{age}-{####}",
+ "autoname": "format:{name1}-{semester}-{###}",
  "creation": "2025-01-20 05:53:13.532227",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "name1",
-  "age",
-  "address",
-  "phone_no",
+  "email",
   "semester",
-  "amended_from"
+  "course",
+  "column_break_plon",
+  "age",
+  "phone_no",
+  "address"
  ],
  "fields": [
   {
@@ -35,30 +37,34 @@
    "fieldname": "phone_no",
    "fieldtype": "Phone",
    "in_list_view": 1,
-   "label": "Phone no",
-   "reqd": 1
+   "label": "Phone no"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_plon",
+   "fieldtype": "Column Break"
   },
   {
    "fieldname": "semester",
-   "fieldtype": "Int",
+   "fieldtype": "Link",
    "label": "Semester",
-   "reqd": 1
+   "options": "Semester",
+   "search_index": 1
   },
   {
-   "fieldname": "amended_from",
+   "fieldname": "course",
    "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Student",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
+   "label": "Course",
+   "options": "Course"
   }
  ],
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2025-01-20 05:57:13.641094",
+ "modified": "2025-01-27 00:37:47.830711",
  "modified_by": "Administrator",
  "module": "EducationHub",
  "name": "Student",
